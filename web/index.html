@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  
+<head>
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="FloorFour">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="FloorFour">
+  <link rel="apple-touch-icon" href="icons/Floor Four logo-black.png">
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" type="image/png" href="icons/Floor Four logo-black.png"/>
+
+  <title>FloorFour</title>
+  <link rel="manifest" href="manifest.json">
+</head>
+
+
+<body id="flutter_container" >
+
+  
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.13.2/firebase-app.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBMEZXNIL-_YRXeORWIAHkM6IQrxDqZJ_A"></script>
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/6.3.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.1/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.1/firebase-storage.js"></script>
+  
+<script src="FbLogin.js"></script>
+  <!-- This script installs service_worker.js to provide PWA functionality to
+       application. For more information, see:
+       https://developers.google.com/web/fundamentals/primers/service-workers -->
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', function () {
+        navigator.serviceWorker.register('flutter_service_worker.js');
+      });
+    }
+  </script>
+ <style>
+  .yellow{
+      cursor:url('https://firebasestorage.googleapis.com/v0/b/floorfourweb.appspot.com/o/Cursors%2Fyellow.cur?alt=media&token=54aa14fe-490f-494f-a61b-bd37eb6a254d'),  auto;
+  }
+  .green{
+      cursor:url('https://firebasestorage.googleapis.com/v0/b/floorfourweb.appspot.com/o/Cursors%2Fgreen.cur?alt=media&token=8addae1d-81fe-47dd-be06-0f2eb6667f7b'),  auto;
+  }
+  .orange{
+    cursor:url('https://firebasestorage.googleapis.com/v0/b/floorfourweb.appspot.com/o/Cursors%2Forange.cur?alt=media&token=de5c92ed-3699-40b3-a743-2ae9787609ed'),  auto;
+  }
+  .purple{
+    cursor:url('https://firebasestorage.googleapis.com/v0/b/floorfourweb.appspot.com/o/Cursors%2Fpurple.cur?alt=media&token=be3ada47-12cb-4bd0-a0cb-a7d6029aa249'),  auto;
+  }
+</style> 
+
+     
+  <script  src="main.dart.js" type="application/javascript"></script>
+  
+  
+</body>
+</html>
